@@ -1,0 +1,15 @@
+Access Modifier/ Access Specifier
+- they define the access of members of a class from location outside a class.
+
+- Private
+- Protected
+- Public
+- Default/ package-private
+          | Inside the class|Outside the class |Outside the same|Outside the same| Global
+ _________|_________________|but same package  |package         |but child class|______________
+public    |   YES           |      YES         |     YES        |    YES        |   YES
+private   |   YES           |      NO          |     NO         |    NO         |   NO
+protected |   YES           |      YES         |     NO         |    YES        |   NO
+Default   |   YES           |      YES         |     NO         |    NO         |   NO
+          |                 |                  |                |               |
+          |                 |                  |                |               |
