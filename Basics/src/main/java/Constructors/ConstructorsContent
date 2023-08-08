@@ -1,0 +1,54 @@
+
+
+
+What's a constructors?
+It creates object.
+Objects in Java are always created using constructor.
+new keyword is used to call constructor to create object.
+
+Types of constructors
+1. Default constructor : If there no constructor defined in the class they JVM provides a default constructor
+by itself.if there is absolutely no constructor defined then only JVM provides default constructor.It will initialize
+all the attributes of the class to their default value
+
+2. No argument : User defines it, you don't pass any arguments as the name says and you initialize the attributes to
+some value instead of default values.
+
+3. Parameterized :
+Takes input arguments and initialize those values to class attributes.
+- we can have many constructors in a class.
+H0w Java differentiates the constructors ?
+Java identifies the constructor with ClassName and parameter's data type combinations.
+Ability to create multiple constructors is called constructor overloading.
+
+4. Copy constructor :
+Instead of passing individual arguments we can pass a full fledged object.
+
+
+Syntax for Constructor :
+access-modifier ClassName(Argument can be 0 to N){
+  ------
+  -----
+  ---
+}
+What is the use of access - modifier?
+    Define the access of the constructor. If we want no classes outside the package should create the object. we can
+    define the object as default.
+
+    If the constructor is private we can't use it outside teh class. Example - Singleton , Builder.
+
+
+
+- Constructors cannot be static
+
+Deep Copy and Shallow copy
+Shallow Copy : Copy of the reference variable.
+Car c1 = c2; //Shallow copy
+
+Deep Copy
+Car c1 = new Car();
+Car c2 = new Car(c1);
+The value will be same that why it is called copy but a brand new object will be created.
+In deep copy we have
+ - copy of reference variable
+ - copy of object
