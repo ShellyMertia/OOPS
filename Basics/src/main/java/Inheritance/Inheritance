@@ -1,0 +1,80 @@
+Inheritance
+- Inheritance in real life
+  1) Inheriting properties / money
+  2) Inheriting DNA - Similar in coding
+
+  Advantages of inheritance
+  - re-usability
+  - Reduction in duplicate code
+  - Maintainability becomes easier [ approximation]
+  - Extensibility can be true
+
+                                  |  Car        |
+                                  | noOfSeats   |
+                                  | noOfWheels  |
+
+
+      |  Alto       |           |  Fortuner        |                  |   R Wagon         |
+      |             |           | Ventilated Seats |                  |Differential locks |
+      |             |
+
+  We are able to extended the existing the capability of your current class. We already have the
+  basics of teh parents plus we can add more things to it.
+
+  - Maintaining hierarchy | grouping things together
+
+                                      [ Animal ]
+         [Mammal]                      [Reptile]                        [Aquatic]
+  [Dog]   [Cat]   [Rabbit]
+[pub] [lab]
+
+  - Is-A relationship
+  - Representation on hierarchy in classes is called as Inheritance.
+  - Representation of parent - child relationship.
+
+                                      [User]   - { Supper class/ Parent class/ Base class }
+    [TA]       [Student]          [Mentor]         [Instructor]   - { Sun/Derived/child class }
+
+- Going upward in hierarchy is called generalization
+- Going downward in hierarchy is called specialization.
+- Child classes inherit  all attributes of parent but may or may not have there own members.
+- Can we inherit private members? Yes private members are inherited.But accessibility of the inherited
+    attributes will depends on the access modifier.
+- We get the idea of a class just by looking at the hierarchy and no need to look into implementation.
+ Thus acheveing abstraction.
+
+ STEPS TO CREATE A OBJECT OF A CHILD CLASS
+ - Assume there is no constructor present.
+
+
+
+ this, super Keyword
+ Both of them can be used to call
+ - constructor
+ - attribute
+ - method
+
+
+ this keyword is used to call the constructor, the attribute or the method of the current class/object.
+ super keyword is for parent class/object.
+
+Constructor telescoping
+- prone to error
+
+
+- If your parent class doesn't have a default constructor, then we need to pass arguments for current
+constructor via child class constructor using super keyword.
+-super is always the first line of the constructor.
+- ability to call parent constructor from child class, is called constructor chaining.
+
+
+
+
+
+
+
+
+
+
+
+

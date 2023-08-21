@@ -52,3 +52,14 @@ The value will be same that why it is called copy but a brand new object will be
 In deep copy we have
  - copy of reference variable
  - copy of object
+
+ Telescoping constructor call
+  Suppose that we have a class with multiple properties and it can be initialized in various ways. It means that we have several property combinations to define a constructor.
+
+  Or suppose that we have a class with multiple properties where some properties are mandatory and others are optional. Thus, we must have multiple constructors and most of these constructors will be created just for convenience.
+  Otherwise, we'll be forcing the client to supply all property values, even if the client doesn't know what it must provide in the first place.
+
+  In the end, we'll have multiple constructors containing similar logic, thus duplicating code. Also when we need to change the processing of a property, we must apply this change on all related constructors.
+   The constructors will be hard to update and maintain with the risk of breaking clients.
+
+  The Telescoping Constructor pattern aims to mitigate most of these problems.
