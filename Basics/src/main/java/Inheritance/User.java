@@ -9,6 +9,9 @@ public class User {
         System.out.println("Hi everyone !");
     }
 
+    public User() {
+    }
+
     public User(int id, String name, String phoneNumber) {
         this.id = id;
         this.name = name;
@@ -37,5 +40,9 @@ public class User {
 
     public String getPhoneNumber() {
         return phoneNumber;
+    }
+
+    public void helloWorld(){
+        System.out.println("Hello everyone !!");
     }
 }
