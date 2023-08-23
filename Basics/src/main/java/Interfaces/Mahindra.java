@@ -1,0 +1,20 @@
+package Interfaces;
+
+public class Mahindra implements Vehicle{
+    @Override
+    public void startEngine() {
+        System.out.println("Start engine in Mahindra");
+    }
+
+    @Override
+    public void startAC() {
+        System.out.println("Start AC in Mahindra");
+
+    }
+
+    @Override
+    public void startMedia() {
+        System.out.println("Start Media in Mahindra");
+
+    }
+}
