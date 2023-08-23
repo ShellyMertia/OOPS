@@ -6,22 +6,21 @@ B b = new A();
 We can do all four
 
 Example : A company has launched a TV. Apart from basic functionality it comes with three smart features.
- __________
-[_*__*__ *__] R1      --------------------------->       ____________________
-                                                         | 3 smart features  |
-                                                         |                   |
-                                                         |                   |
-                                                         |___________________| S1
+
+      [_*__*__ *__] R1      -->       ____________________
+                                      | 3 smart features  |
+                                      |                   |
+                                      |                   |
+                                      |___________________| S1
 
 
 
-  __________
- [_*_*_*_*_*] R2
-                                                          ____________________
-                                                          | 5 smart features  |
-          ----------------------------------->            |     3(from S1)    |
-                                                          |      + 2 (new)    |
-                                                          |___________________| S2
+     __________
+     [_*_*_*_*_*] R2                  ____________________
+                                      | 5 smart features  |
+          ---->                       |     3(from S1)    |
+                                      |      + 2 (new)    |
+                                      |___________________| S2
 
 
    R1 -> S1  =>  A a = new A();

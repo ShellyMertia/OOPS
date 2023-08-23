@@ -4,7 +4,7 @@ The following are the essential building blocks of object -oriented programming
 - Classes
 - Objects
 
-Principles of OOPS
+# Principles of OOPS
  There is one principle that is : Abstraction
 
 Pillars of OOPs
@@ -13,7 +13,7 @@ Pillars of OOPs
  - Polymorphism
 
 
- Abstraction
+ # Abstraction
  - The concept of making something abstract( representing something
  in terms of ideas)
  - In Object - oriented programming it simplifies the programs' structure.
@@ -39,7 +39,7 @@ Pillars of OOPs
    Abstraction
 
 
- Encapsulation
+ # Encapsulation
    - Technique to achieve data hiding.
    - Encapsulation in OOP refers to binding data and the methods to manipulate that data together in a single unit—class.
    - A class can be thought of as a capsule with methods and attributes inside it.
@@ -67,7 +67,7 @@ Encapsulation means to hide data using getter and setter
 functions.
 
 
-Inheritance
+# Inheritance
 Inheritance provides a way to create a new class from an existing class. The new class is a specialized
 version of the existing class such that it inherits all the public attributes (variables) and methods of the
 existing class. The existing class is used as a starting point or base to create the new class.
@@ -90,7 +90,7 @@ Advantages
 - Code Modification easily.
 
 
-Polymorphism
+# Polymorphism
 In programming, polymorphism is a phenomenon that allows an object to have several different forms
 and behaviors.
 For example, take the Animal class. There are many different animals, e.g., lion, deer, dog, and crocodile, etc.

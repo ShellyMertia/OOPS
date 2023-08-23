@@ -9,5 +9,8 @@
         <module name="Basics" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="OOPS" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -96,6 +96,17 @@ Example : A company has launched a TV. Apart from basic functionality it comes w
      - we can achieve this by method overriding.
      - startEngine() - same method signature.
      - but implementation is different in parent and child class
+     - In case of upcasting the method invoked will always be the method present in object.
+     Parent p = new Child();
+     - methods possible to invoke are the methods present in parent class.
+     - methods executed would be the methods from child class.
+     - Reference variable gives you the option to call the members of the class.Using the reference variable only
+     we can call the attribute or the methods of the class.
+     - Execution depends on teh object.
+
+     Use Cases:
+
+
 
 
 
